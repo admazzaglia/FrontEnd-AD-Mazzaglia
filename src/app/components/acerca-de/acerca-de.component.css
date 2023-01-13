@@ -4,10 +4,12 @@
 div{
     background-color: #a1b5cb;
     text-align: center;
+    align-self: center;
 }
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
+        width: 80%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
     }

@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .redes{
     margin-right: 0.5em;
+
 }
 #logoAP{
-    width: 50px;
+    width: 110px;
 }
 img{
     width: 30px;
@@ -27,6 +29,6 @@ img{
         align-items: center;
     }
     .redes img{
-        margin: 0.2em;
+        margin: 0.3em;
     }
 }

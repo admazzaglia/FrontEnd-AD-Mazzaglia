@@ -9,5 +9,5 @@ export const environment = {
     messagingSenderId: '346558459143',
   },
   production: true,
-  URL: 'https://web-madfrontend-d13f8.web.app',
+  URL: 'https://portofilo-mad-backend.onrender.com/',
 };

@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root',
 })
 export class PersonaService {
-  //URL = 'http://localhost:8080/personas/';
+
   URL = environment.URL + 'personas/';
 
   constructor(

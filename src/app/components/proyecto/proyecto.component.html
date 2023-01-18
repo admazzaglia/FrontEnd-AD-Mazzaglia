@@ -23,17 +23,14 @@
           <td *ngIf="isLogged">
             <button
               class="btn btn-light"
-              routerLink="/editproyecto/{{ Proyecto.id }}"
-            >
+              routerLink="/editproyecto/{{ Proyecto.id }}">
               <i class="bi bi-pencil-fill"></i>
-              Editar
-            </button>
+           </button>
           </td>
 
           <td *ngIf="isLogged">
             <button class="btn btn-danger" (click)="delete(Proyecto.id)">
               <i class="bi bi-trash-fill"></i>
-              Borrar
             </button>
           </td>
         </tr>

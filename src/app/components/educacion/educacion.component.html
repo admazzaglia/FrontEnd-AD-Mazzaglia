@@ -18,16 +18,16 @@
           <td>{{ Educacion.desdeE }}</td>
           <td>{{ Educacion.hastaE }}</td>
           <td *ngIf="isLogged">
-            <button class="btn btn-light" routerLink="/editedu/{{ Educacion.id }}">
+            <button
+             class="btn btn-light"
+             routerLink="/editedu/{{ Educacion.id }}">
               <i class="bi bi-pencil-fill"></i>
-              Editar
             </button>
           </td>
 
           <td *ngIf="isLogged">
             <button class="btn btn-danger" (click)="delete(Educacion.id)">
               <i class="bi bi-trash-fill"></i>
-              Borrar
             </button>
           </td>
         </tr>

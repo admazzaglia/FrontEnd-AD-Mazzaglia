@@ -1,7 +1,8 @@
 div{
-  background-color: #a1b5cb;
+  background-color:rgba(46, 92, 115, 1.000);
+  /* #a1b5cb;*/
 }
 app-sociales{
   float: right;
-  margin-top: 20px;
+  margin-top: 10px;
 }

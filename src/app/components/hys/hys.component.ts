@@ -41,7 +41,7 @@ export class HysComponent implements OnInit {
         (err) => {
           alert('No se pudo borrar la skill');
         }
-      );
+      )
     }
   }
 }

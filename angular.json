@@ -1,4 +1,7 @@
+
+
 {
+
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
@@ -10,6 +13,7 @@
           "strict": true
         }
       },
+
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -22,26 +26,33 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
-
             ],
-            "scripts": [
-               "node_modules/bootstrap/dist/js/bootstrap.js"
-            ]
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.js"]
           },
           "configurations": {
+
+
+
+
             "production": {
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                },
+                "fonts": true
+              },
+
+
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
+                  "maximumWarning": "1mb",
                   "maximumError": "1mb"
                 },
                 {
@@ -94,10 +105,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "../node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
@@ -111,5 +119,4 @@
   "cli": {
     "analytics": "f42a73c1-669e-444c-8924-858d067978d4"
   }
-
 }

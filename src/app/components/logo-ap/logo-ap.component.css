@@ -5,14 +5,14 @@
 
 }
 .redes{
-    margin-right: 0.5em;
+    margin-right: 0.10em;
 
 }
 #logoAP{
-    width: 110px;
+    width: 120px;
 }
 img{
-    width: 30px;
+    width: 40px;
 }
 .btn{
     border-width: medium;
@@ -29,6 +29,6 @@ img{
         align-items: center;
     }
     .redes img{
-        margin: 0.3em;
+        margin: 0.4em;
     }
 }

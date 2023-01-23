@@ -2,11 +2,8 @@
   <h1>Hard & Soft skills</h1>
   <div class="col-lg-2">
     <button
-      type="button"
-      routerLink="/newskill"
-      class="btn btn-dark"
-      *ngIf="isLogged"
-    >
+      type="button" class="btn btn-dark" routerLink="/newskill"
+      *ngIf="isLogged">
       Ingresar
     </button>
   </div>
@@ -43,7 +40,7 @@
           <i class="bi bi-pencil-fill"></i>
         </button>
       </td>
-      <br>
+      <br />
       <td *ngIf="isLogged">
         <button class="btn btn-danger" (click)="delete(skill.id)">
           <i class="bi bi-trash-fill"></i>
